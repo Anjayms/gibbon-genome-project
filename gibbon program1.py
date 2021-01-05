@@ -26,7 +26,9 @@ Vuab_Pheno = Gibbon_pheno("Juluo", 3, 6.0, False, "usually", "cursorial", 37.5, 
 
 dead = []
 for i in [Nleo_Pheno, Wauyb_Pheno, Sotiu_Pheno, Una_Pheno, Kilao_Pheno, Rouob_Pheno, Gyteu_Pheno, Jinya_Pheno, Juluo_Pheno, Vuab_Pheno]:
+#here is where you change the if statement
     if i.fitness > 9:
+#here is where you change the if statement^        
         dead.append(i)
 
 
